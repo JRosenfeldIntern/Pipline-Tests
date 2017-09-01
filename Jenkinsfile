@@ -5,7 +5,7 @@ pipeline{
 		stage('Example'){
 			steps{
 				echo 'Hello world'
-				bat 'rundir'
+				bat 'runpy'
 			}
 		}
 	}
