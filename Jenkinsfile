@@ -5,7 +5,7 @@ pipeline{
 		stage('Example'){
 			steps{
 				echo 'Hello world'
-				bat 'runpy'
+				bat 'python ./pytest.py'
 			}
 		}
 	}
