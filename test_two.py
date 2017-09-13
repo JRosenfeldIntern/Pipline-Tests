@@ -12,7 +12,7 @@ class Josh(object):
 class TestTwo(unittest.TestCase):
     def test_employed(self):
         josh = Josh()
-        self.assertIs(josh.employed, True)
+        self.assertTrue(josh.employed)
 
     def test_student(self):
         josh = Josh()
